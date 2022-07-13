@@ -1,4 +1,4 @@
-import  State  from "./components/State";
+import  Darkmode  from "./components/Darkmode";
  let a = 'Soham';
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       <p>This is a simple React app</p>
       <p>{a} is learning React</p>
     </div>
-    <State heading = 'Text'/>
+    <Darkmode/>
     </>
     
   );
