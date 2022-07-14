@@ -49,6 +49,7 @@ export default function Darkmode(props) {
           onClick={toggleDarkmode}
           className="form-check-input"
           type="checkbox"
+          // eslint-disable-next-line
           role="switch"
           id="flexSwitchCheckDefault"
         />
